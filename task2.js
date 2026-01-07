@@ -6,3 +6,7 @@ export class Player {
     this.level = level;
   }
 }
+
+const player = new Player("Tara", 6);
+console.log(player.name);
+console.log(player.level);
